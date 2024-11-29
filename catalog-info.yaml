@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: meu-servico
+  description: Este é um exemplo de serviço.
+  annotations:
+    github.com/project-slug: "minha-org/meu-repo"
+spec:
+  type: service
+  owner: equipe-minha
