@@ -4,7 +4,7 @@ metadata:
   name: meu-servico
   description: Este é um exemplo de serviço.
   annotations:
-    github.com/project-slug: "minha-org/meu-repo"
+    github.com/project-slug: "intelipost/backstage"
 spec:
   type: service
   owner: equipe-minha
