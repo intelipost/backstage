@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: meu-servico
-  description: Um serviço exemplo para o catálogo
+  description: Um serviço exemplo para o catálogo do Backstage.
   tags:
     - exemplo
     - backend
 spec:
   type: service
   lifecycle: production
-  owner: squad-transito
+  owner: equipe-dev
