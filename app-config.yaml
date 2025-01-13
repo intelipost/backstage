@@ -3,7 +3,7 @@ app:
   baseUrl: http://localhost:3000
 
 organization:
-  name: My Company
+  name: Intelipost
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
@@ -41,9 +41,14 @@ backend:
 integrations:
   github:
     - host: github.com
+      apps:
+        - $include: github-app-backstage-intelipost-credentials.yaml
+
+  #github:
+    #- host: github.com
       # This is a Personal Access Token or PAT from GitHub. You can find out how to generate this token, and more information
       # about setting up the GitHub integration here: https://backstage.io/docs/integrations/github/locations#configuration
-      token: ${GITHUB_TOKEN}
+    #  token: ${GITHUB_TOKEN}
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
@@ -84,6 +89,28 @@ scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
 
 catalog:
+  providers:
+    githubOrg:
+      id: production
+      githubUrl: https://github.com
+      orgs: ['intelipost']
+      schedule:
+        initialDelay: { seconds: 30 }
+        frequency: { hours: 1 }
+        timeout: { minutes: 50 }
+    github:
+      # the provider ID can be any camelCase string
+      providerId:
+        organization: 'intelipost' # string
+        catalogPath: '/catalog-info.yaml' # string
+        filters:
+          branch: 'master' # string
+          repository: '.*' # Regex
+        schedule: # same options as in SchedulerServiceTaskScheduleDefinition
+          # supports cron, ISO duration, "human duration" as used in code
+          frequency: { minutes: 60 }
+          # supports ISO duration, "human duration" as used in code
+          timeout: { minutes: 3 }
   import:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
