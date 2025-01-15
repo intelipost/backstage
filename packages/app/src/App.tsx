@@ -39,6 +39,8 @@ import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha'
 
+import { CopilotIndexPage } from '@backstage-community/plugin-copilot';
+
 const app = createApp({
   apis,
   bindRoutes({ bind }) {
@@ -108,6 +110,7 @@ const routes = (
     </Route>
     <Route path="/settings" element={<UserSettingsPage />} />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
+    <Route path="/copilot" element={<CopilotIndexPage />} />;
   </FlatRoutes>
 );
 
