@@ -38,9 +38,21 @@ backend:
       password: backstage
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
 
+copilot:
+  scheduler:
+    frequency:
+      hours: 2
+    timeout:
+      minutes: 2
+    initialDelay:
+      seconds: 15
+  host: github.com
+  organization: intelipost
+
 integrations:
   github:
     - host: github.com
+      token: ${INTEGRATIONS_GITHUB_TOKEN}
       apps:
         - appId: ${AUTH_ORG_APP_ID}
           clientId: ${AUTH_ORG_CLIENT_ID}
