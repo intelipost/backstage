@@ -45,7 +45,7 @@ copilot:
     timeout:
       minutes: 2
     initialDelay:
-      seconds: 15
+      seconds: 120
   host: github.com
   organization: intelipost
 
