@@ -73,8 +73,8 @@ auth:
   providers:
     google:
       development:
-        clientId: 44642918038-76igu2in5i64161a3f0fm42fq41fhuja.apps.googleusercontent.com
-        clientSecret: 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
+        clientId: ${AUTH_GOOGLE_CLIENT_ID}
+        clientSecret: ${AUTH_GOOGLE_CLIENT_SECRET}
         #signIn:
         #  resolvers:
             # See https://backstage.io/docs/auth/google/provider#resolvers for more resolvers

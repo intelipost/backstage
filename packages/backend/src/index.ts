@@ -87,8 +87,8 @@ const customAuth = createBackendModule({
                 );
               }
               // Split the email into the local part and the domain.
-              const [localPart, domain] = profile.email.split('@');
-            
+              const [localPart] = profile.email.split('@');
+              //const [localPart, domain] = profile.email.split('@');
               // Next we verify the email domain. It is recommended to include this
               // kind of check if you don't look up the user in an external service.
               // if (domain !== 'acme.org') {
