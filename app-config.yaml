@@ -38,6 +38,29 @@ backend:
       password: backstage
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
 
+  infraWallet:
+    integrations:
+      mongoatlas:
+        - name: intelipost-mongoatlas
+          orgId: ${MONGO_ORG_ID}
+          publicKey: ${MONGO_PUBLIC_KEY}
+          privateKey: ${MONGO_PRIVATE_KEY}
+      aws:
+        - name: intelipost-aws
+          accountId: '002021427136' # quoted as a string
+          assumedRoleName: backstage-prd # optional, only needed if you want to assume a role
+      confluent:
+        - name: intelipost-confluent
+          apiKey: ${CONFLUENT_API_KEY}
+          apiSecret: ${CONFLUENT_API_SECRET}
+
+
+infraWallet:
+  settings:
+    defaultGroupBy: none
+    defaultShowLastXMonths: 6
+    readOnly: false
+
 copilot:
   scheduler:
     frequency:
@@ -45,7 +68,7 @@ copilot:
     timeout:
       minutes: 2
     initialDelay:
-      seconds: 120
+      seconds: 600
   host: github.com
   organization: intelipost
 
@@ -112,7 +135,7 @@ catalog:
       githubUrl: https://github.com
       orgs: ['intelipost']
       schedule:
-        initialDelay: { seconds: 120 }
+        initialDelay: { seconds: 600 }
         frequency: { hours: 1 }
         timeout: { minutes: 50 }
     github:
@@ -126,6 +149,7 @@ catalog:
         schedule: # same options as in SchedulerServiceTaskScheduleDefinition
           # supports cron, ISO duration, "human duration" as used in code
           frequency: { minutes: 60 }
+          initialDelay: { minutes: 5 }
           # supports ISO duration, "human duration" as used in code
           timeout: { minutes: 3 }
   import:
