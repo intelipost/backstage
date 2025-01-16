@@ -41,6 +41,8 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 
 import { CopilotIndexPage } from '@backstage-community/plugin-copilot';
 
+import { InfraWalletPage } from '@electrolux-oss/plugin-infrawallet';
+
 const app = createApp({
   apis,
   bindRoutes({ bind }) {
@@ -111,6 +113,7 @@ const routes = (
     <Route path="/settings" element={<UserSettingsPage />} />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
     <Route path="/copilot" element={<CopilotIndexPage />} />;
+    <Route path="/infrawallet" element={<InfraWalletPage />} />
   </FlatRoutes>
 );
 

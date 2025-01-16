@@ -28,6 +28,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import { MyGroupsSidebarItem } from '@backstage/plugin-org';
 import GroupIcon from '@material-ui/icons/People';
 import { CopilotSidebar } from '@backstage-community/plugin-copilot';
+import { InfraWalletIcon } from '@electrolux-oss/plugin-infrawallet';
 
 const useSidebarLogoStyles = makeStyles({
   root: {
@@ -83,6 +84,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
             <CopilotSidebar />
           }
         </SidebarScrollWrapper>
+        <SidebarItem icon={InfraWalletIcon} to="infrawallet" text="InfraWallet" />
       </SidebarGroup>
       <SidebarSpace />
       <SidebarDivider />

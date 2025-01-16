@@ -22,7 +22,7 @@ yarn tsc
 yarn build:backend
 
 
-docker image build --platform linux/amd64 . -f packages/backend/Dockerfile --tag 721642697306.dkr.ecr.us-east-1.amazonaws.com/backstage:1.0.10
+docker image build --platform linux/amd64 . -f packages/backend/Dockerfile --tag 721642697306.dkr.ecr.us-east-1.amazonaws.com/backstage:1.0.16
 
-docker push 721642697306.dkr.ecr.us-east-1.amazonaws.com/backstage:1.0.10
+docker push 721642697306.dkr.ecr.us-east-1.amazonaws.com/backstage:1.0.16
 ```
