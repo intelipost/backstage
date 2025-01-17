@@ -59,6 +59,11 @@ import {
   isKubernetesAvailable,
 } from '@backstage/plugin-kubernetes';
 
+import {
+  EntityEndOfLifeCard,
+  isEndOfLifeAvailable,
+} from '@dweber019/backstage-plugin-endoflife';
+
 const techdocsContent = (
   <EntityTechdocsContent>
     <TechDocsAddons>
@@ -135,6 +140,13 @@ const overviewContent = (
     <Grid item md={6} xs={12}>
       <EntityCatalogGraphCard variant="gridItem" height={400} />
     </Grid>
+    <EntitySwitch>
+      <EntitySwitch.Case if={isEndOfLifeAvailable}>
+        <Grid item md={12}>
+          <EntityEndOfLifeCard />
+        </Grid>
+      </EntitySwitch.Case>
+    </EntitySwitch>
 
     <Grid item md={4} xs={12}>
       <EntityLinksCard />
@@ -142,6 +154,7 @@ const overviewContent = (
     <Grid item md={8} xs={12}>
       <EntityHasSubcomponentsCard variant="gridItem" />
     </Grid>
+    
   </Grid>
 );
 
