@@ -60,6 +60,11 @@ import {
 } from '@backstage/plugin-kubernetes';
 
 import {
+  EntityEndOfLifeCard,
+  isEndOfLifeAvailable,
+} from '@dweber019/backstage-plugin-endoflife';
+
+import {
   EntityArgoCDOverviewCard,
   isArgocdAvailable
 } from '@roadiehq/backstage-plugin-argo-cd';
@@ -140,6 +145,13 @@ const overviewContent = (
     <Grid item md={6} xs={12}>
       <EntityCatalogGraphCard variant="gridItem" height={400} />
     </Grid>
+    <EntitySwitch>
+      <EntitySwitch.Case if={isEndOfLifeAvailable}>
+        <Grid item md={12}>
+          <EntityEndOfLifeCard />
+        </Grid>
+      </EntitySwitch.Case>
+    </EntitySwitch>
 
     <Grid item md={4} xs={12}>
       <EntityLinksCard />
@@ -147,7 +159,6 @@ const overviewContent = (
     <Grid item md={8} xs={12}>
       <EntityHasSubcomponentsCard variant="gridItem" />
     </Grid>
-
     <EntitySwitch>
       <EntitySwitch.Case if={e => Boolean(isArgocdAvailable(e))}>
         <Grid item sm={4}>

@@ -3,39 +3,46 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: examples
+  name: internal-development-platform
 spec:
-  owner: guests
+  owner: foundation
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-website
+  name: nome-do-meu-servico
+  annotations:
+    endoflife.date/products: oracle-jdk@8
 spec:
-  type: website
-  lifecycle: experimental
-  owner: guests
-  system: examples
+  type: service
+  lifecycle: production
+  owner: foundation
+  system: internal-development-platform
   providesApis: [example-grpc-api]
+  dependsOn:
+    - resource:foundation-db
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-api
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Resource
 metadata:
-  name: example-grpc-api
+  name: foundation-db
+  description: Banco de dados de Foundation
+  annotations:
+    endoflife.date/products: amazon-rds-postgresql@12
 spec:
-  type: grpc
-  lifecycle: experimental
-  owner: guests
-  system: examples
-  definition: |
-    syntax = "proto3";
-
-    service Exampler {
-      rpc Example (ExampleMessage) returns (ExampleMessage) {};
-    }
-
-    message ExampleMessage {
-      string example = 1;
-    };
+  type: database
+  owner: foundation
+  system: internal-development-platform
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: devlake-db
+  description: Banco de dados de Foundation
+  annotations:
+    endoflife.date/products: amazon-rds-postgresql@15
+spec:
+  type: database
+  owner: foundation
+  system: internal-development-platform
