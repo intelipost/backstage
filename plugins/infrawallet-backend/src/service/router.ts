@@ -111,7 +111,7 @@ export async function createRouter(options: RouterOptions): Promise<express.Rout
               clientResponse.reports.forEach((cost: Report) => {
                 results.push(cost);
               });
-            } catch (e) {
+            } catch (e: any) {
               logger.error(e);
               errors.push({
                 provider: client.constructor.name,
@@ -170,7 +170,7 @@ export async function createRouter(options: RouterOptions): Promise<express.Rout
             clientResponse.tags.forEach((tag: Tag) => {
               tags.push(tag);
             });
-          } catch (e) {
+          } catch (e: any) {
             logger.error(e);
             errors.push({
               provider: client.constructor.name,
@@ -221,7 +221,7 @@ export async function createRouter(options: RouterOptions): Promise<express.Rout
             clientResponse.tags.forEach((tag: Tag) => {
               tags.push(tag);
             });
-          } catch (e) {
+          } catch (e: any) {
             logger.error(e);
             errors.push({
               provider: client.constructor.name,
@@ -343,7 +343,7 @@ export async function createRouter(options: RouterOptions): Promise<express.Rout
             metricResponse.metrics.forEach((metric: Metric) => {
               results.push(metric);
             });
-          } catch (e) {
+          } catch (e: any) {
             logger.error(e);
             errors.push({
               provider: client.constructor.name,
@@ -421,6 +421,7 @@ export async function createRouter(options: RouterOptions): Promise<express.Rout
     response.json({ deleted: deletedMetricSetting, status: 200 });
   });
 
+  // @ts-ignore
   router.use(errorHandler());
   return router;
 }

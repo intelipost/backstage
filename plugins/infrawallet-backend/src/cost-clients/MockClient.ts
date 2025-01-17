@@ -78,7 +78,7 @@ export class MockClient extends InfraWalletClient {
       );
 
       return processedData;
-    } catch (err) {
+    } catch (err: any) {
       this.logger.error('Error while reading a file', err);
       throw err;
     }

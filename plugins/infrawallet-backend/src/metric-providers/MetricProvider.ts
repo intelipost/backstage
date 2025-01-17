@@ -90,7 +90,7 @@ export abstract class MetricProvider {
                 ...value,
               });
             });
-          } catch (e) {
+          } catch (e: any) {
             this.logger.error(e);
             errors.push({
               provider: this.providerName,

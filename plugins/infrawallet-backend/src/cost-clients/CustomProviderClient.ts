@@ -133,7 +133,7 @@ export class CustomProviderClient extends InfraWalletClient {
       transformedReports.forEach((value: any) => {
         results.push(value);
       });
-    } catch (e) {
+    } catch (e: any) {
       this.logger.error(e);
       errors.push({
         provider: this.provider,

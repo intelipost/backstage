@@ -103,7 +103,7 @@ export class MongoAtlasClient extends InfraWalletClient {
       );
 
       return allInvoicesData.join('\n');
-    } catch (error) {
+    } catch (error: any) {
       this.logger.error(`Error fetching invoices from MongoDB Atlas: ${error.message}`);
       throw error;
     }

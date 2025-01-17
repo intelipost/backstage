@@ -155,7 +155,7 @@ export abstract class InfraWalletClient {
             }
           }
           await setTagKeysToCache(this.cache, tagKeysCache, this.provider, integrationName, query);
-        } catch (e) {
+        } catch (e: any) {
           this.logger.error(e);
           errors.push({
             provider: this.provider,
@@ -220,7 +220,7 @@ export abstract class InfraWalletClient {
             }
           }
           await setTagValuesToCache(this.cache, tagValuesCache, this.provider, integrationName, tagKey, query);
-        } catch (e) {
+        } catch (e: any) {
           this.logger.error(e);
           errors.push({
             provider: this.provider,
@@ -288,7 +288,7 @@ export abstract class InfraWalletClient {
           transformedReports.forEach((value: any) => {
             results.push(value);
           });
-        } catch (e) {
+        } catch (e: any) {
           this.logger.error(e);
           errors.push({
             provider: this.provider,

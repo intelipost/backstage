@@ -75,7 +75,7 @@ export class GCPClient extends InfraWalletClient {
       const [rows] = await job.getQueryResults();
 
       return rows;
-    } catch (err) {
+    } catch (err: any) {
       throw new Error(err.message);
     }
   }

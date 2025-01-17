@@ -19,6 +19,7 @@ export const infraWalletPlugin = createBackendPlugin({
       },
       async init({ httpRouter, logger, config, cache, database }) {
         httpRouter.use(
+          // @ts-ignore
           await createRouter({
             logger,
             config,

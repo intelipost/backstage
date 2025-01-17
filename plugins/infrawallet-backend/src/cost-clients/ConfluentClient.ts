@@ -120,7 +120,7 @@ export class ConfluentClient extends InfraWalletClient {
       return {
         data: aggregatedData,
       };
-    } catch (error) {
+    } catch (error: any) {
       this.logger.error(`Error fetching costs from Confluent: ${error.message}`);
       throw error;
     }
