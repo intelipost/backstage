@@ -1,6 +1,9 @@
 app:
   title: Scaffolded Backstage App
   baseUrl: http://localhost:3000
+  extensions:
+    - entity-card:announcements/announcements
+    - nav-item:announcements
 
 organization:
   name: Intelipost

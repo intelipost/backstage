@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core';
 import HomeIcon from '@material-ui/icons/Home';
 import ExtensionIcon from '@material-ui/icons/Extension';
 import LibraryBooks from '@material-ui/icons/LibraryBooks';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import CampaignIcon from '@mui/icons-material/Campaign';
 import CreateComponentIcon from '@material-ui/icons/AddCircleOutline';
 import LogoFull from './LogoFull';
 import LogoIcon from './LogoIcon';
@@ -68,7 +70,9 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
       <SidebarDivider />
       <SidebarGroup label="Menu" icon={<MenuIcon />}>
         {/* Global nav, not org-specific */}
-        <SidebarItem icon={HomeIcon} to="catalog" text="Home" />
+        <SidebarItem icon={HomeIcon} to="/" text="Home" />
+
+        <SidebarItem icon={AutoStoriesIcon} to="catalog" text="Catalog" />
         <MyGroupsSidebarItem
           singularTitle="My Group"
           pluralTitle="My Groups"
@@ -85,6 +89,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
           }
         </SidebarScrollWrapper>
         <SidebarItem icon={InfraWalletIcon} to="infrawallet" text="InfraWallet" />
+        <SidebarItem icon={CampaignIcon} to="announcements" text="Announcements" />
       </SidebarGroup>
       <SidebarSpace />
       <SidebarDivider />
