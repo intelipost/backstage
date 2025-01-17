@@ -2,12 +2,41 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  description: Internal Developer Platform (IDP) Backstage
+  annotations:
+    github.com/project-slug: "intelipost/backstage"
+    backstage.io/source-location: url:https://github.com/intelipost/backstage
+    endoflife.date/products: amazon-rds-postgresql@17, react@18, nodejs@20
 spec:
-  type: website
-  owner: john@example.com
-  lifecycle: experimental
+  system: idp
+  type: service
+  lifecycle: production
+  owner: foundation
+  dependsOn:
+    - kind: Resource
+      name: backstage-rds
+  links:
+    - url: "https://backstage.us-east-1.prd.ip-apps.com.br"
+      title: "Backstage"
+      icon: "dashboard"
+    - url: "https://github.com/intelipost/intelipost-deploy-eks-foundation/tree/backstage/overlays/prd_us-east-1/application/backstage"
+      title: "GitOps"
+      icon: "github"
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: backstage-rds
+  description: Amazon RDS instance for Backstage
+spec:
+  type: database
+  owner: foundation
+  system: idp
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: idp
+  description: Internal Developer Platform (IDP) system
+spec:
+  owner: foundation
