@@ -24,6 +24,8 @@ import { UserSettingsPage } from '@backstage/plugin-user-settings';
 import { apis } from './apis';
 import { entityPage } from './components/catalog/EntityPage';
 import { searchPage } from './components/search/SearchPage';
+import { homePage } from './components/home/HomePage';
+
 import { Root } from './components/Root';
 
 import { googleAuthApiRef } from '@backstage/core-plugin-api';
@@ -42,6 +44,8 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 import { CopilotIndexPage } from '@backstage-community/plugin-copilot';
 
 import { InfraWalletPage } from '@electrolux-oss/plugin-infrawallet';
+import announcementsPlugin from '@backstage-community/plugin-announcements/alpha';
+import { AnnouncementsPage } from '@backstage-community/plugin-announcements';
 
 const app = createApp({
   apis,
@@ -76,11 +80,14 @@ const app = createApp({
       />
     ),
   },
+  features: [
+    announcementsPlugin,
+  ],
 });
 
 const routes = (
   <FlatRoutes>
-    <Route path="/" element={<Navigate to="catalog" />} />
+    <Route path="/" element={homePage} />
     <Route path="/catalog" element={<CatalogIndexPage />} />
     <Route
       path="/catalog/:namespace/:kind/:name"
@@ -114,6 +121,7 @@ const routes = (
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
     <Route path="/copilot" element={<CopilotIndexPage />} />;
     <Route path="/infrawallet" element={<InfraWalletPage />} />
+    <Route path="/announcements" element={<AnnouncementsPage />} />
   </FlatRoutes>
 );
 
