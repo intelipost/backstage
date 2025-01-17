@@ -67,6 +67,7 @@ backend.add(import('@backstage/plugin-kubernetes-backend'));
 
 backend.add(import('@backstage-community/plugin-copilot-backend'));
 
+backend.add(import('@electrolux-oss/plugin-infrawallet-backend'));
 
 const customAuth = createBackendModule({
   // This ID must be exactly "auth" because that's the plugin it targets

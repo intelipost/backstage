@@ -1,0 +1,2051 @@
+[
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Composer",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Composer",
+    "category": "Analytics",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_BigQuery",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/BigQuery",
+    "category": "Analytics",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Logging",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Logging",
+    "category": "Operations",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Memorystore for Redis",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Memorystore for Redis",
+    "category": "Database",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Storage",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Storage",
+    "category": "Storage",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Compute Engine",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Compute Engine",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Networking",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Networking",
+    "category": "Networking",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Monitoring",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Monitoring",
+    "category": "Operations",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Artifact Registry",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Artifact Registry",
+    "category": "Developer Tools",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Secret Manager",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Secret Manager",
+    "category": "Security, Identity, & Compliance",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Functions",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Functions",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_BigQuery Storage API",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/BigQuery Storage API",
+    "category": "Analytics",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Dialogflow API",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Dialogflow API",
+    "category": "Artificial Intelligence",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_App Engine",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/App Engine",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Geocoding API",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Geocoding API",
+    "category": "Uncategorized",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Run",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Run",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud Pub/Sub",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Pub/Sub",
+    "category": "Analytics",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud SQL",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud SQL",
+    "category": "Database",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Kubernetes Engine",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Kubernetes Engine",
+    "category": "Containers",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Cloud DNS",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud DNS",
+    "category": "Networking",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-1_Vertex AI Search",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Vertex AI Search",
+    "category": "Artificial Intelligence",
+    "provider": "GCP",
+    "project": "gcp-project-1"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Run",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Run",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Support",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Support",
+    "category": "Uncategorized",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Compute Engine",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Compute Engine",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_BigQuery",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/BigQuery",
+    "category": "Analytics",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Networking",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Networking",
+    "category": "Networking",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Secret Manager",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Secret Manager",
+    "category": "Security, Identity, & Compliance",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Artifact Registry",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Artifact Registry",
+    "category": "Developer Tools",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Logging",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Logging",
+    "category": "Operations",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Pub/Sub",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Pub/Sub",
+    "category": "Analytics",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Storage",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Storage",
+    "category": "Storage",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Dialogflow API",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Dialogflow API",
+    "category": "Artificial Intelligence",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_App Engine",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/App Engine",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Key Management Service (KMS)",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Key Management Service (KMS)",
+    "category": "Security, Identity, & Compliance",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Kubernetes Engine",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Kubernetes Engine",
+    "category": "Containers",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud DNS",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud DNS",
+    "category": "Networking",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Scheduler",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Scheduler",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Functions",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Functions",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "gcp-dev-mock_gcp-project-2_Cloud Tasks",
+    "account": "GCP/gcp-dev-mock",
+    "service": "GCP/Cloud Tasks",
+    "category": "Compute",
+    "provider": "GCP",
+    "project": "gcp-project-2"
+  },
+  {
+    "id": "azure-staging-mock->Azure App Service",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/App Service",
+    "category": "Compute",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure Cognitive Search",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Cognitive Search",
+    "category": "Artificial Intelligence",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure Container Apps",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Container Apps",
+    "category": "Containers",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure Cosmos DB",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Cosmos DB",
+    "category": "Database",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure Data Factory v2",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Data Factory v2",
+    "category": "Database",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure DevOps",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/DevOps",
+    "category": "Developer Tools",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure Firewall",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Firewall",
+    "category": "Security, Identity, & Compliance",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure Front Door Service",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Front Door Service",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure Monitor",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Monitor",
+    "category": "DevOps",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Bandwidth",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Bandwidth",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Container Registry",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Container Registry",
+    "category": "Containers",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Content Delivery Network",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Content Delivery Network",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Event Grid",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Event Grid",
+    "category": "Internet of Things",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Event Hubs",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Event Hubs",
+    "category": "Analytics",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Functions",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Functions",
+    "category": "Compute",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->IoT Hub",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/IoT Hub",
+    "category": "Internet of Things",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Key Vault",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Key Vault",
+    "category": "Security, Identity, & Compliance",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Load Balancer",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Load Balancer",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Log Analytics",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Log Analytics",
+    "category": "Analytics",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Logic Apps",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Logic Apps",
+    "category": "Application Integration",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->NAT Gateway",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/NAT Gateway",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Notification Hubs",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Notification Hubs",
+    "category": "Developer Tools",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Redis Cache",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Redis Cache",
+    "category": "Database",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->SQL Database",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/SQL Database",
+    "category": "Database",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Service Bus",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Service Bus",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Storage",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Storage",
+    "category": "Storage",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Traffic Manager",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Traffic Manager",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Virtual Machines",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Virtual Machines",
+    "category": "Compute",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Virtual Network",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Virtual Network",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Azure Databricks",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Databricks",
+    "category": "Artificial Intelligence",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-staging-mock->Cognitive Services",
+    "account": "Azure/azure-staging-mock (00000000-0000-0000-0000-000000000001)",
+    "service": "Azure/Cognitive Services",
+    "category": "Artificial Intelligence",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "test"
+  },
+  {
+    "id": "azure-prod-mock->Azure App Service",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/App Service",
+    "category": "Compute",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Azure Cognitive Search",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Cognitive Search",
+    "category": "Artificial Intelligence",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Azure Cosmos DB",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Cosmos DB",
+    "category": "Database",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Azure DNS",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/DNS",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Azure Data Factory v2",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Data Factory v2",
+    "category": "Database",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Azure Firewall",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Firewall",
+    "category": "Security, Identity, & Compliance",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Azure Front Door Service",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Front Door Service",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Azure Maps",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Maps",
+    "category": "Front-End Web & Mobile",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Azure Monitor",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Monitor",
+    "category": "DevOps",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Bandwidth",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Bandwidth",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Container Registry",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Container Registry",
+    "category": "Containers",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Content Delivery Network",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Content Delivery Network",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Event Grid",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Event Grid",
+    "category": "Internet of Things",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Event Hubs",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Event Hubs",
+    "category": "Analytics",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Functions",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Functions",
+    "category": "Compute",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->IoT Hub",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/IoT Hub",
+    "category": "Internet of Things",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Key Vault",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Key Vault",
+    "category": "Security, Identity, & Compliance",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Load Balancer",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Load Balancer",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Log Analytics",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Log Analytics",
+    "category": "Analytics",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Logic Apps",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Logic Apps",
+    "category": "Application Integration",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Microsoft Defender for Cloud",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Microsoft Defender for Cloud",
+    "category": "Security, Identity, & Compliance",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->NAT Gateway",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/NAT Gateway",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Notification Hubs",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Notification Hubs",
+    "category": "Developer Tools",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Redis Cache",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Redis Cache",
+    "category": "Database",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->SQL Database",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/SQL Database",
+    "category": "Database",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Service Bus",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Service Bus",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Storage",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Storage",
+    "category": "Storage",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Traffic Manager",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Traffic Manager",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->VPN Gateway",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/VPN Gateway",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Virtual Machines",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Virtual Machines",
+    "category": "Compute",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "azure-prod-mock->Virtual Network",
+    "account": "Azure/azure-prod-mock (00000000-0000-0000-0000-000000000002)",
+    "service": "Azure/Virtual Network",
+    "category": "Networking",
+    "provider": "Azure",
+    "project": "azure-project-1",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678901_AWS CloudTrail",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/CloudTrail",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Config",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Config",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Cost Explorer",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Cost Explorer",
+    "category": "Cloud Financial Management",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS IoT",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/IoT",
+    "category": "Internet of Things",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Key Management Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Key Management Service",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Lambda",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Lambda",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Secrets Manager",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Secrets Manager",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Security Hub",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Security Hub",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS WAF",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/WAF",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS X-Ray",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/X-Ray",
+    "category": "Developer Tools",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon API Gateway",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/API Gateway",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon DynamoDB",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/DynamoDB",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon EC2 Container Registry (ECR)",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/ECR (Elastic Container Registry)",
+    "category": "Containers",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon ElastiCache",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/ElastiCache",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_EC2 - Other",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/EC2 - Other",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Elastic Compute Cloud - Compute",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/EC2 - Instances",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Elastic Container Service for Kubernetes",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/EKS (Elastic Container Service for Kubernetes)",
+    "category": "Containers",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Elastic Load Balancing",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Elastic Load Balancing",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Glacier",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Glacier",
+    "category": "Storage",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon GuardDuty",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/GuardDuty",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Kinesis",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Kinesis",
+    "category": "Analytics",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Managed Streaming for Apache Kafka",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/MSK (Managed Streaming for Apache Kafka)",
+    "category": "Analytics",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Relational Database Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/RDS (Relational Database Service)",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Route 53",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Route 53",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Simple Email Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Simple Email Service",
+    "category": "Front-End Web & Mobile",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Simple Notification Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/SNS (Simple Notification Service)",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Simple Queue Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/SQS (Simple Queue Service)",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Simple Storage Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/S3 (Simple Storage Service)",
+    "category": "Storage",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Timestream",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Timestream",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Virtual Private Cloud",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/VPC (Virtual Private Cloud)",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AmazonCloudWatch",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/CloudWatch",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS CloudTrail",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/CloudTrail",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Config",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Config",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Cost Explorer",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Cost Explorer",
+    "category": "Cloud Financial Management",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS IoT",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/IoT",
+    "category": "Internet of Things",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Key Management Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Key Management Service",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Lambda",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Lambda",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Migration Hub Refactor Spaces",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Migration Hub Refactor Spaces",
+    "category": "Migration",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Secrets Manager",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Secrets Manager",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS Security Hub",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Security Hub",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS WAF",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/WAF",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS X-Ray",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/X-Ray",
+    "category": "Developer Tools",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon API Gateway",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/API Gateway",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon DynamoDB",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/DynamoDB",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon ElastiCache",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/ElastiCache",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_EC2 - Other",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/EC2 - Other",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Elastic Compute Cloud - Compute",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/EC2 - Instances",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Elastic Container Service for Kubernetes",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/EKS (Elastic Container Service for Kubernetes)",
+    "category": "Containers",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Elastic Load Balancing",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Elastic Load Balancing",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon GuardDuty",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/GuardDuty",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Kinesis",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Kinesis",
+    "category": "Analytics",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Location Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Location Service",
+    "category": "Front-End Web & Mobile",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Managed Streaming for Apache Kafka",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/MSK (Managed Streaming for Apache Kafka)",
+    "category": "Analytics",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Relational Database Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/RDS (Relational Database Service)",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Route 53",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/Route 53",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Simple Notification Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/SNS (Simple Notification Service)",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Simple Queue Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/SQS (Simple Queue Service)",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Simple Storage Service",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/S3 (Simple Storage Service)",
+    "category": "Storage",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_Amazon Virtual Private Cloud",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/VPC (Virtual Private Cloud)",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AmazonCloudWatch",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/CloudWatch",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678901_AWS IoT Device Management",
+    "account": "AWS/aws-staging-mock (012345678901)",
+    "service": "AWS/IoT Device Management",
+    "category": "Internet of Things",
+    "provider": "AWS",
+    "project": "aws-mock-staging",
+    "environment": "staging"
+  },
+  {
+    "id": "012345678903_AWS CloudTrail",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/CloudTrail",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS Config",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Config",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS Cost Explorer",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Cost Explorer",
+    "category": "Cloud Financial Management",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS IoT",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/IoT",
+    "category": "Internet of Things",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS Key Management Service",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Key Management Service",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS Lambda",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Lambda",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS Secrets Manager",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Secrets Manager",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS Security Hub",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Security Hub",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS WAF",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/WAF",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS X-Ray",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/X-Ray",
+    "category": "Developer Tools",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon API Gateway",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/API Gateway",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon DynamoDB",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/DynamoDB",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon ElastiCache",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/ElastiCache",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_EC2 - Other",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/EC2 - Other",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Elastic Compute Cloud - Compute",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/EC2 - Instances",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Elastic Container Service for Kubernetes",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/EKS (Elastic Container Service for Kubernetes)",
+    "category": "Containers",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Elastic Load Balancing",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Elastic Load Balancing",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon GuardDuty",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/GuardDuty",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Kinesis",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Kinesis",
+    "category": "Analytics",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Managed Streaming for Apache Kafka",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/MSK (Managed Streaming for Apache Kafka)",
+    "category": "Analytics",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Relational Database Service",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/RDS (Relational Database Service)",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Route 53",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Route 53",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Simple Notification Service",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/SNS (Simple Notification Service)",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Simple Queue Service",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/SQS (Simple Queue Service)",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Simple Storage Service",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/S3 (Simple Storage Service)",
+    "category": "Storage",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Timestream",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/Timestream",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_Amazon Virtual Private Cloud",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/VPC (Virtual Private Cloud)",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AmazonCloudWatch",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/CloudWatch",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678903_AWS IoT Device Management",
+    "account": "AWS/aws-prod-mock (012345678903)",
+    "service": "AWS/IoT Device Management",
+    "category": "Internet of Things",
+    "provider": "AWS",
+    "project": "aws-mock-prod",
+    "environment": "prod"
+  },
+  {
+    "id": "012345678902_AWS CloudTrail",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/CloudTrail",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS Config",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Config",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS Cost Explorer",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Cost Explorer",
+    "category": "Cloud Financial Management",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS IoT",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/IoT",
+    "category": "Internet of Things",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS IoT Device Defender",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/IoT Device Defender",
+    "category": "Internet of Things",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS Key Management Service",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Key Management Service",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS Lambda",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Lambda",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS Secrets Manager",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Secrets Manager",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS Security Hub",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Security Hub",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS WAF",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/WAF",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS X-Ray",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/X-Ray",
+    "category": "Developer Tools",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon API Gateway",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/API Gateway",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon DynamoDB",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/DynamoDB",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon ElastiCache",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/ElastiCache",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_EC2 - Other",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/EC2 - Other",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Elastic Compute Cloud - Compute",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/EC2 - Instances",
+    "category": "Compute",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Elastic Container Service for Kubernetes",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/EKS (Elastic Container Service for Kubernetes)",
+    "category": "Containers",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Elastic Load Balancing",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Elastic Load Balancing",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Glacier",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Glacier",
+    "category": "Storage",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon GuardDuty",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/GuardDuty",
+    "category": "Security, Identity, & Compliance",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Kinesis",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Kinesis",
+    "category": "Analytics",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Managed Streaming for Apache Kafka",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/MSK (Managed Streaming for Apache Kafka)",
+    "category": "Analytics",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Relational Database Service",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/RDS (Relational Database Service)",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Route 53",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Route 53",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Simple Notification Service",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/SNS (Simple Notification Service)",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Simple Queue Service",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/SQS (Simple Queue Service)",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Simple Storage Service",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/S3 (Simple Storage Service)",
+    "category": "Storage",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Timestream",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Timestream",
+    "category": "Database",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_Amazon Virtual Private Cloud",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/VPC (Virtual Private Cloud)",
+    "category": "Networking",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AmazonCloudWatch",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/CloudWatch",
+    "category": "Management & Governance",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS Step Functions",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/Step Functions",
+    "category": "Application Integration",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "012345678902_AWS CloudShell",
+    "account": "AWS/aws-dev-mock (012345678902)",
+    "service": "AWS/CloudShell",
+    "category": "Developer Tools",
+    "provider": "AWS",
+    "project": "aws-mock-dev",
+    "environment": "dev"
+  },
+  {
+    "id": "confluent-org-mock->Integration->cluster-1",
+    "account": "Confluent/confluent-org-mock",
+    "service": "Confluent/Kafka Base",
+    "category": "Integration",
+    "provider": "Confluent",
+    "project": "confluent-project-1",
+    "cluster": "cluster-1"
+  },
+  {
+    "id": "confluent-org-mock->Networking->cluster-1",
+    "account": "Confluent/confluent-org-mock",
+    "service": "Confluent/Kafka Network Read",
+    "category": "Networking",
+    "provider": "Confluent",
+    "project": "confluent-project-1",
+    "cluster": "cluster-1"
+  },
+  {
+    "id": "confluent-org-mock->Networking->cluster-1",
+    "account": "Confluent/confluent-org-mock",
+    "service": "Confluent/Kafka Network Write",
+    "category": "Networking",
+    "provider": "Confluent",
+    "project": "confluent-project-1",
+    "cluster": "cluster-1"
+  },
+  {
+    "id": "atlas-org-mock->Compute->atlas-project-1->atlas-cluster-1",
+    "account": "MongoAtlas/atlas-org-mock",
+    "service": "MongoAtlas/M20 Instance - Azure",
+    "category": "Compute",
+    "provider": "MongoAtlas",
+    "project": "atlas-project-1",
+    "cluster": "atlas-cluster-1"
+  },
+  {
+    "id": "atlas-org-mock->Networking->atlas-project-1->atlas-cluster-1",
+    "account": "MongoAtlas/atlas-org-mock",
+    "service": "MongoAtlas/Azure Data Transfer",
+    "category": "Networking",
+    "provider": "MongoAtlas",
+    "project": "atlas-project-1",
+    "cluster": "atlas-cluster-1"
+  },
+  {
+    "id": "atlas-org-mock->Storage->atlas-project-1->atlas-cluster-1",
+    "account": "MongoAtlas/atlas-org-mock",
+    "service": "MongoAtlas/Cloud Backup Storage - Azure",
+    "category": "Storage",
+    "provider": "MongoAtlas",
+    "project": "atlas-project-1",
+    "cluster": "atlas-cluster-1"
+  },
+  {
+    "id": "atlas-org-mock->Compute->atlas-project-2->atlas-cluster-2",
+    "account": "MongoAtlas/atlas-org-mock",
+    "service": "MongoAtlas/M20 Instance - AWS",
+    "category": "Compute",
+    "provider": "MongoAtlas",
+    "project": "atlas-project-2",
+    "cluster": "atlas-cluster-2"
+  },
+  {
+    "id": "atlas-org-mock->Networking->atlas-project-2->atlas-cluster-2",
+    "account": "MongoAtlas/atlas-org-mock",
+    "service": "MongoAtlas/Azure Data Transfer",
+    "category": "Networking",
+    "provider": "MongoAtlas",
+    "project": "atlas-project-2",
+    "cluster": "atlas-cluster-2"
+  },
+  {
+    "id": "atlas-org-mock->Storage->atlas-project-2->atlas-cluster-2",
+    "account": "MongoAtlas/atlas-org-mock",
+    "service": "MongoAtlas/Cloud Backup Storage - AWS",
+    "category": "Storage",
+    "provider": "MongoAtlas",
+    "project": "atlas-project-2",
+    "cluster": "atlas-cluster-2"
+  }
+]
