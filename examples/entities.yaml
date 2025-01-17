@@ -41,7 +41,7 @@ metadata:
   name: devlake-db
   description: Banco de dados de Foundation
   annotations:
-    endoflife.date/products: amazon-rds-postgresql@15
+    endoflife.date/products: amazon-rds-postgresql@17.2
 spec:
   type: database
   owner: foundation

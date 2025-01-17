@@ -59,6 +59,8 @@ cd "$PROJECT_DIR" || { echo "Failed to navigate to $PROJECT_DIR"; exit 1; }
 # Path to the kustomization file
 KUSTOMIZATION_FILE="overlays/prd_us-east-1/application/backstage/kustomization.yaml"
 
+git pull origin master
+
 # Create a new branch for this version
 git checkout -b "backstage-$VERSION"
 
